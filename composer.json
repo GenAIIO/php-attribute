@@ -1,0 +1,15 @@
+{
+    "name": "genai/attribute",
+    "version": "1.0.0",
+    "description": "Build-time attribute scanner that dispatches custom attributes to your handlers. PHP 8 only; it emits no runtime code itself — your handlers feed the PHP 5.3-safe *Register dumpers.",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": ">=8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "GenAI\\Attribute\\": "src/"
+        }
+    }
+}
